@@ -1,0 +1,35 @@
+.containerNav{
+    width: 100%;
+    height:10vh;
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+    padding:20px 5% 5px 5%;
+    display: flex;
+    z-index: 2;
+    color: var(--color-purple);
+    position: fixed;
+}
+.logo{
+    font-size:50px;
+}
+.containerlinks{
+    display: flex;
+    margin-left:40%;
+    padding-top: 1%;
+    width: 50vw;
+    justify-content: flex-end;
+}
+.link{
+    margin-left:25px;
+    font-size: 14px;
+}
+.link a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: var(--color-white);
+    transition-duration:.5s;
+}
+.link a:hover{
+    color: var(--color-purple);
+    transition-duration:.5s;
+}

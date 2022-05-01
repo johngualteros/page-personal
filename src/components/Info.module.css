@@ -1,0 +1,72 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding-left:16%;
+    padding-top: 9%;
+}
+.section{
+    width: 67%;
+    height: 60vh;
+    color: var(--color-purple);
+}
+p{
+    font-size:20px;
+}
+h1{
+    font-size: 4.5rem;
+    color: var(--color-white);
+    font-weight: bold;
+
+}
+.name{
+    font-size: 5rem;
+    color: var(--color-white);
+    font-weight: bold;
+    background-image:linear-gradient(135deg, rgba(149,69,252,1) 0%, rgba(200,81,242,1) 49%, rgba(253,29,217,1) 100%);
+    color: transparent;
+   -webkit-background-clip: text; 
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid var(--color-purple);
+    width: 13ch;
+    animation: typing 2.8s steps(12) infinite,
+    blink .5s infinite  step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing {
+    from{width: 0;}
+}
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+}
+.description{
+    color: var(--color-gray);
+}
+.subtitle{
+    color: var(--color-gray);
+}
+.link{
+    color: var(--color-purple);
+    text-decoration: underline;
+}
+.buttonNav{
+    margin-top: 50px;
+    height:50px;
+    width: 240px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(135deg, rgba(149,69,252,1) 0%, rgba(200,81,242,1) 49%, rgba(253,29,217,1) 100%) 1;
+    color: var(--color-purple);
+    background-color: transparent;
+    border-radius:5px;
+    transition-duration:.5s;
+    font-size: 1.5rem;
+}
+.buttonNav:hover{
+    background-color: rgba(158, 30, 255,0.2);
+    cursor: pointer;
+    color: var(--color-white);
+    transition-duration:.5s;
+}
