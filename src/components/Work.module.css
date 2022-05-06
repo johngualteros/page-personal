@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    height:100vh;
+    padding: 5% 20%;
+}
+.containerTitle{
+    display: flex;
+    align-items: center;
+    height:auto;
+}
+.numberTitle{
+    color: var(--color-purple);
+    font-size:1.4rem;
+}
+.lineTitle{
+    width: 33%;
+    height:1px;
+    background-color:var(--color-white);
+}
+.Title{
+    font-size:1.7rem;
+    font-weight:bold;
+}
+.containerWork{
+    width: 100%;
+    height:100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 80% 20%;
+}
+.comingSoon{
+    text-align:center;
+}

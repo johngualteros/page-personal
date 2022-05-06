@@ -33,7 +33,7 @@
     width:25px;
     height: auto;
     position: fixed;
-    top: 53%;
+    top: 60%;
     left: 7%;
     font-size:12px;
     display: grid;
@@ -42,16 +42,14 @@
 .icon{
     font-size:25px;
     transition-duration: .5s;
+    color: var(--color-white);
+
 }
 .icon:hover{
     color: var(--color-purple);
     transform: translateY(-7px);
     transition-duration: .5s;
     cursor:pointer;
-}
-.icon:visited{
-    
-    color: var(--color-purple);
 }
 .lineIcons{
     width: 2px;

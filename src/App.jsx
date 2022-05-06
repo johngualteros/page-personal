@@ -4,6 +4,7 @@ import { Info } from "./components/Info";
 import { Redes } from "./components/Redes";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { Work } from "./components/Work";
 export function App() {
   return (
     <>
@@ -11,6 +12,7 @@ export function App() {
     <Redes/>
     <Info/>
     <About/>
+    <Work/>
     <Contact/>
     <Footer/>
     </>
